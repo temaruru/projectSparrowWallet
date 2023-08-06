@@ -1,0 +1,118 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 55px;
+  height: 44px;
+  width: 100%;
+  background: var(--blue);
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid var(--dark-gray);
+  color: var(--white);
+  outline: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all .2s;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+.btn a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.outlined {
+  background: transparent;
+  border: 3px solid var(--blue);
+  color: var(--blue);
+}
+
+.disabled {
+  background: var(--gray);
+  pointer-events: none;
+}
+
+.inline {
+  background: var(--dark-gray);
+  height: 44px;
+  line-height: 44px;
+}
+
+.start {
+  background: var(--white);
+  border-radius: 0;
+  border: none;
+  height: 66px;
+  line-height: 66px;
+  padding: 0 10px 0 80px;
+  color: var(--light);
+  justify-content: left;
+  position: relative;
+}
+
+.start .icon {
+  position: absolute;
+  left: 10px;
+  margin: auto;
+}
+
+.start .icon svg {
+  width: 50px;
+  height: 50px;
+}
+
+.sm {
+  width: auto;
+  background: transparent;
+  color: var(--light);
+  height: 35px;
+  line-height: 35px;
+  font-size: 10px;
+  padding: 0 15px;
+  flex-flow: row-reverse;
+  border: 1px solid var(--light);
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.sm .icon {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.icon > svg {
+  display: block;
+}
+
+.bar {
+  width: 50%;
+  height: 44px;
+  position: relative;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  padding: 0 16px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  border-radius: 4px;
+  border: none;
+}
+
+.bar:first-child {
+  margin-right: 15px;
+}
+
+.bar .icon {
+  margin-left: 5px;
+  margin-right: 0;
+}

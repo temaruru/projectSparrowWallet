@@ -1,0 +1,139 @@
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  min-height: 55px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.inline {
+  background: var(--primary);
+  border-bottom: none;
+}
+
+.block:hover {
+  opacity: .6;
+}
+
+.inner {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--light);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.inline .title {
+  font-size: 14px;
+  color: var(--light);
+}
+
+.title_sm {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--white);
+}
+
+.subtitle {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--light);
+  margin-top: 5px;
+}
+
+.icon {
+  display: flex;
+  min-width: fit-content;
+  margin-right: 15px;
+}
+
+.content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--light);
+}
+
+.icon_arrow {
+  color: var(--light);
+}
+
+.icon_arrow svg {
+  display: block;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.indicator {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 12px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.indicator::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.indicator.green {color: var(--green);}
+.indicator.green::before {background: var(--green);}
+
+.indicator.yellow {color: var(--yellow);}
+.indicator.yellow::before {background: var(--yellow);}
+
+.indicator.red {color: var(--error);}
+.indicator.red::before {background: var(--error);}
+
+.inline .indicator {
+  position: relative;
+}
+
+.inline .indicator::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 16px;
+  background: var(--dark-gray);
+  position: absolute;
+  top: -3px;
+  right: -10px;
+}
+
+.info_text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 12px;
+  color: var(--gray);
+}
+
+.col_right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.selected {
+  color: var(--secondary-text);
+  font-size: 16px;
+  line-height: 140%;
+}

@@ -1,0 +1,10 @@
+.item {
+  background: var(--white);
+  padding: 0 20px;
+  color: var(--white);
+  border-bottom: 1px solid var(--dark-gray);
+  position: relative;
+  width: calc(100% + 50px);
+  margin-left: -25px;
+  box-sizing: border-box;
+}

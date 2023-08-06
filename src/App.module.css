@@ -1,0 +1,11 @@
+.screens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px
+}
+
+.screen {
+  width: var(--app-width);
+  height: var(--app-height);
+  border: 1px solid #C5C5C5;
+}

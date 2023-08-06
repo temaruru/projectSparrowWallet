@@ -1,0 +1,76 @@
+.block {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.action {
+  font-size: 12px;
+  line-height: 38px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: var(--blue);
+  padding: 0 18px;
+  border: 1px solid var(--blue);
+  cursor: pointer;
+  margin-left: 6px;
+  transition: all .2s;
+}
+
+.action:hover {
+  opacity: .7;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--light);
+}
+
+.label_value {
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--gray);
+  pointer-events: none;
+}
+
+.select {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  color: var(--secondary-text);
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.input {
+  display: block;
+  background-color: transparent;
+  height: 100%;
+  width: 30px;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--white);
+  outline: none;
+  border: none;
+  padding-left: 20px;
+}
+
+.input::placeholder {
+  color: var(--light);
+}
+
+.title_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.select_right {
+  right: 13px;
+}

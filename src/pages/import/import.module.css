@@ -1,0 +1,46 @@
+.wrapper {
+    max-width: 295px;
+    margin: 0 auto;
+}
+
+.action {
+    margin-bottom: 12px;
+}
+
+.separator {
+    color: var(--dark-gray);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    position: relative;
+    margin-top: -8px;
+}
+
+.separator::before {
+    content: '';
+    width: 130px;
+    height: 1px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background: var(--dark-gray);
+}
+
+.separator::after {
+    content: '';
+    width: 130px;
+    height: 1px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background: var(--dark-gray);
+}
+
+.button .icon {
+    background: red;
+}

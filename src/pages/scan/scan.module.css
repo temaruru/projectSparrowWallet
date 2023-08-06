@@ -1,0 +1,49 @@
+.block {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.bg {
+  background: url('../../assets/images/scan.png') no-repeat top;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  color: var(--blue);
+  margin-bottom: 45px;
+}
+
+.qr {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.qr_block {
+  padding: 8px;
+  border-radius: 14px;
+  background-color: var(--white);
+}
+
+.qr_block svg {
+  display: block;
+}
+
+.text {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin-top: 50px;
+}

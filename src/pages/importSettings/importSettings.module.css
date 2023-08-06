@@ -1,0 +1,33 @@
+.row {
+  margin-left: -25px;
+  width: calc(100% + 50px);
+  box-sizing: border-box;
+  padding: 13px 20px;
+}
+
+.row_grid {
+  width: 50%;
+}
+
+.list_grid {
+  display: flex;
+  gap: 40px;
+  margin-left: -25px;
+  width: calc(100% + 50px);
+  box-sizing: border-box;
+  padding: 13px 20px;
+  background: var(--white);
+  border-bottom: 1px solid var(--dark-gray);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.list:not(:last-child) {
+  margin-bottom: 35px;
+}

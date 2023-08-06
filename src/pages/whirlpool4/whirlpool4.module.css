@@ -1,0 +1,40 @@
+.lines {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0;
+}
+
+.lines_col {
+  display: flex;
+  flex-flow: column;
+}
+
+.lines_col span {
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--gray);
+}
+
+.lines_col span:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.lines_title {
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--light)
+}
+
+.lines_left,
+.lines_right {
+  color: var(--gray);
+}
+
+.lines_right {
+  transform: scaleX(-1);
+}
+
+.chart {
+  margin: 20px 0 30px;
+}

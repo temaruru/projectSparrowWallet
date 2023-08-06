@@ -1,0 +1,48 @@
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--light);
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--light);
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.col {
+  flex-grow: 1;
+}
+
+.col_sm {
+  width: 120px;
+  margin-left: 15px;
+}
+
+.terminal {
+  background: var(--light-blue);
+  box-shadow: 0 0 15px rgba(4, 8, 16, 0.2);
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light);
+  padding: 20px;
+  margin-bottom: 35px;
+}
+
+.terminal span {
+  display: block;
+}
+
+.terminal span:not(:first-child) {
+  color: var(--green);
+  margin-top: 20px;
+}

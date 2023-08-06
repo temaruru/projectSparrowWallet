@@ -1,0 +1,34 @@
+body .rc-slider {
+  width: 320px;
+  margin: auto;
+}
+
+body .rc-slider-rail {
+  right: -15px !important;
+  padding-left: 15px;
+  box-sizing: content-box;
+}
+
+body .rc-slider-track {
+  left: -15px !important;
+  padding-right: 15px;
+  box-sizing: content-box;
+}
+
+body .rc-slider-rail {
+  border: 1px solid var(--dark-gray);
+}
+
+body .rc-slider-track {
+  border: 1px solid var(--dark-gray);
+}
+
+body .rc-slider-mark-text {
+  color: var(--dark-gray);
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+body .rc-slider-dot {
+  display: none !important;
+}

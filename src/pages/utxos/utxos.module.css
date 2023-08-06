@@ -1,0 +1,150 @@
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--light);
+  border-bottom: 1px solid var(--dark-gray);
+  width: calc(100% + 50px);
+  margin-left: -25px;
+  background: var(--white);
+  padding: 16px 25px;
+}
+
+.chart {
+  border-bottom: 1px solid rgba(196, 209, 237, .2);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.left,
+.right {
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--light);
+  margin-bottom: 10px;
+}
+
+.right span {
+  margin-left: 20px;
+}
+
+.header_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: calc(100% + 50px);
+  margin-left: -25px;
+  background: var(--white);
+  padding: 20px 0;
+  border-bottom: 1px solid var(--dark-gray);
+}
+
+.header_col {
+  display: flex;
+  flex-flow: column;
+  padding: 0 20px;
+}
+
+.header_title {
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--light);
+  margin-bottom: 6px;
+}
+
+.header_subtitle {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.header_digits {
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--light);
+  display: flex;
+  align-items: end;
+  margin-bottom: 5px;
+}
+
+.header_digits span {
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 4px;
+}
+
+.header_info {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--light);
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.header_info:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.inner {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.inner_title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--light);
+}
+
+.inner_actions {
+  display: flex;
+  gap: 10px;
+}
+
+.content {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+.bar {
+  margin-top: auto;
+}
+
+.chart {
+  position: relative;
+  left: -20px;
+}

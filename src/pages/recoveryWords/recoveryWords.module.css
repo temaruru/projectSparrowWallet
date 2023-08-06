@@ -1,0 +1,15 @@
+.text {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light);
+  margin-bottom: 20px;
+}
+
+.alert {
+  padding: 20px 0 0;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--dark-gray);
+  margin-bottom: 30px;
+}
